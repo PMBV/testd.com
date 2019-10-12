@@ -1,0 +1,131 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  	<meta charset="utf-8">
+	
+  	<title>Chess</title>
+  	<meta name="description" content="Chess">
+  	<meta name="author" content="SitePoint">
+	
+  	<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+	<table border>
+	    <tr>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	    </tr>
+	    <tr>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	    </tr>
+	    <tr>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	    </tr>
+	    <tr>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	    </tr>
+	    <tr>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	    </tr>
+	    <tr>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	    </tr>
+	    <tr>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	    </tr>
+	    <tr>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	        <th></th>
+	    </tr>
+	</table>
+	<p></p>	
+	<table>
+		<tr>
+			<th id="menu"><p id="tour">Au tour des blancs</p></th>
+			<th id="menu" onclick="newGame()"><button>Nouvelle Partie</button></th>
+			<th><button id = "auto" onclick="blackAutoplayConfig()">Black autoplay (on)</button></th>
+		</tr>
+	</table>
+	<button onclick="possiblePlays()">possiblePLays (console)</button>
+
+  	<script src="system/blackifyTable.js"></script>
+  	<script src="system/main.js"></script>
+    <script src="system/roque.js"></script>
+    <script src="system/possiblePlays.js"></script>
+    <script src="system/convertSymbol.js"></script>
+    <script src="system/valueOfPlay.js"></script>
+    <script src="system/blackAutoplay.js"></script>
+    <script src="system/whiteAutoplay.js"></script>
+
+
+  	<script src="pieces/p.js"></script>
+    <script src="pieces/f.js"></script>
+  	<script src="pieces/t.js"></script>
+  	<script src="pieces/c.js"></script>
+    <script src="pieces/r.js"></script>
+    <script src="pieces/d.js"></script>
+
+
+
+  	<script>blackifyTable()</script>
+
+</body>
+</html>

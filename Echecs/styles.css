@@ -1,0 +1,20 @@
+body {
+	background-color:black;
+}
+th {
+	 width: 50px;
+	 height: 50px;
+	 background-color: #7289DA;
+}
+img {
+	width: 50px;
+	filter: hue-rotate(120deg);
+	filter:saturate(600%);
+}
+p {
+	color: white;
+}
+#menu {
+	width: 150px;
+	height: 0px;
+}
